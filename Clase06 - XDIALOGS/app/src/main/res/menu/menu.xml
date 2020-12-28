@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/op1"
+    android:title="Opcion 1"
+    android:orderInCategory="100"
+    android:icon="@android:drawable/ic_menu_camera"
+    app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/op2"
+        android:title="Opcion 2 - Add Contact"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        ></item>
+
+
+    <item
+        android:id="@+id/op3"
+        android:title="Opcion 3 - 2da activity"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/opSearch"
+        android:title="Buscar"
+        android:orderInCategory="99"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        ></item>
+
+
+
+
+</menu>
